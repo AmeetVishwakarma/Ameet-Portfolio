@@ -132,6 +132,32 @@
     padding: 10px 20px !important;
     font-size: 20px !important;
 }
+/* Contact */
+input[type=text]{
+    border-bottom: 2px solid var(--hero-bg) !important;
+    border-radius: 0px !important;
+    outline: none;
+    border: none; 
+    padding: 15px 0px;
+}
+input[type=text]:focus,
+input[type=text]:hover{
+    border-bottom: 2px solid  !important;
+    color: #5c7a73;
+}
+textarea{
+    border-bottom: 2px solid var(--hero-bg) !important;
+    border-radius: 0px !important;
+    outline: none;
+    border: none; 
+    padding: 15px 0px;
+}
+textarea:focus,
+textarea:hover{
+    border-bottom: 2px solid  !important;
+    color: #5c7a73;
+}
+
 /* -----------------------Media queriesscetion------------------------- */
 
 @media (max-width: 500px) { 
