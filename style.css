@@ -21,7 +21,7 @@
     background: #fff;
     position: absolute;
     top: 18px;
-    left: 409px;
+    left: 320px;
     border-radius: 5px;
 }
 .star::after{
@@ -31,7 +31,7 @@
     background: #fff;
     position: absolute;
     top: 18px;
-    left: 685px;
+    left: 594px;
     border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@
     background: #000;
     position: absolute;
     top: 18px;
-    left: 605px;
+    left: 400px;
     border-radius: 5px;
 }
 .star2::after{
@@ -56,7 +56,7 @@
     background: #000;
     position: absolute;
     top: 18px;
-    left: 879px;
+    left: 666px;
     border-radius: 5px;
 }
 .new-nav{
@@ -72,11 +72,14 @@
 .p-25{
     padding: 25px !important;
 }
+.p-10{
+    padding: 10px !important;
+}
 .name-fs{
-    font-size: 5.5rem!important;
+    font-size: 4rem!important;
 }
 .orange-txt{
-    font-size: 6.5rem!important;
+    font-size: 5rem!important;
 }
 .hero{
     background: var(--hero-bg);
@@ -84,7 +87,7 @@
 
 /* Portfolio */
 .main-head{
-    font-size: 4rem!important;
+    font-size: 3rem!important;
 }
 .quote-bg{
     background: var(--quote-bg);
