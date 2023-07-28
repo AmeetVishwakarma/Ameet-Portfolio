@@ -191,6 +191,29 @@
     left: 212px;
     border-radius: 5px;
     }
+    .star3{
+        position: relative;
+    }
+    .star3::before{
+        content: ' ';
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 12px;
+    left: 63px;
+    border-radius: 5px;
+    }
+    .star3::after{
+        content: ' ';
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 12px;
+    left: 212px;
+    border-radius: 5px;
+    }
     .orange-txt{
         font-size: 4.3rem !important;
     }
