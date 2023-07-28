@@ -158,6 +158,54 @@ textarea:hover{
     color: #5c7a73;
 }
 
+footer{
+    background: #2b3035;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.icon1{
+    border: 1px solid #fff;
+    padding: 12px 19px;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+.icon1:hover{
+    background: #fff;
+    color: #2b3035;
+}
+.icon2{
+    border: 1px solid #fff;
+    padding: 14px 14px;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+.icon2:hover{
+    background: #fff;
+    color: #2b3035;
+}
+.icon3{
+    border: 1px solid #fff;
+    padding: 14px 16px;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+.icon3:hover{
+    background: #fff;
+    color: #2b3035;
+}
+.icon4{
+    border: 1px solid #fff;
+    padding: 14px 12px;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+.icon4:hover{
+    background: #fff;
+    color: #2b3035;
+}
 /* -----------------------Media queriesscetion------------------------- */
 
 @media (max-width: 500px) { 
