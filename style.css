@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* root elements */
+:root{
+    --hero-bg: #1abc9c;
+    --quote-bg: #fa6346;
+}
+/* root elements end */
+.star{
+    position: relative;
+}
+.star::before{
+    content: ' ';
+    width: 200px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 18px;
+    left: 409px;
+    border-radius: 5px;
+}
+.star::after{
+    content: ' ';
+    width: 200px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 18px;
+    left: 685px;
+    border-radius: 5px;
+}
+
+
+.star2{
+    position: relative;
+}
+.star2::before{
+    content: ' ';
+    width: 200px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 18px;
+    left: 605px;
+    border-radius: 5px;
+}
+.star2::after{
+    content: ' ';
+    width: 200px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 18px;
+    left: 879px;
+    border-radius: 5px;
+}
+.new-nav{
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+}
+.text-right{
+    text-align: right;
+}
+.lh-84{
+    line-height: 84px;
+}
+.p-25{
+    padding: 25px !important;
+}
+.name-fs{
+    font-size: 5.5rem!important;
+}
+.orange-txt{
+    font-size: 6.5rem!important;
+}
+.hero{
+    background: var(--hero-bg);
+}
+
+/* Portfolio */
+.main-head{
+    font-size: 4rem!important;
+}
+.quote-bg{
+    background: var(--quote-bg);
+}
+.span-txt{
+    color: #fd7b66;
+}
+
+/* -----------------------Media queriesscetion------------------------- */
+
+@media (max-width: 500px) { 
+    .name-fs{
+        font-size: 2.5rem!important;
+    }
+    .port-head{
+        font-size: 2rem !important;
+    }
+    .hero .hero-img{
+        width: 350px;
+        height: 350px;
+    }
+    .star{
+        position: relative;
+    }
+    .star::before{
+        content: ' ';
+        width: 100px;
+        height: 5px;
+        background: #fff;
+        position: absolute;
+        top: 12px;
+        left: 50px;
+        border-radius: 5px;
+    }
+    .star::after{
+        content: ' ';
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 12px;
+    left: 200px;
+    border-radius: 5px;
+    }
+    .star2{
+        position: relative;
+    }
+    .star2::before{
+        content: ' ';
+    width: 100px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 12px;
+    left: 63px;
+    border-radius: 5px;
+    }
+    .star2::after{
+        content: ' ';
+    width: 100px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 12px;
+    left: 212px;
+    border-radius: 5px;
+    }
+    .orange-txt{
+        font-size: 4.3rem !important;
+    }
+
+}
