@@ -1,189 +1,696 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abid Portfoilo | 2023-24</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  </head>
-  <body>
+</head>
+<body>
 
-    <!-- Nav starts here -->
-    <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
-        <div class="container navbar-fixed-top">
-          <a class="navbar-brand fs-2 fw-bolder" href="index.html">Project</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active fw-bolder fs-5 p-10" aria-current="page" href="#">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder fs-5 p-10" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bolder fs-5 p-10" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+    <!-- preloader  -->
+    <!-- <div id="preloader"></div> -->
+
+
+    
+    <!-- This section is for contact us directly on WhatsApp  -->
+    <!-- desktop view   -->
+    <!-- <div class="whatsapp d-none d-md-block">
+        <a href="https://wa.link/41otry" target="_blank" class=""><i class="bi bi-whatsapp" style="font-size: 24px; margin: 0px 4px 0px 0px;"></i> <span>Chat With Me 🚀</span></a>
+    </div> -->
+
+    <!-- mobile view whatsapp  -->
+    <!-- <div class="whatsapp d-block d-md-none">
+        <a href="https://wa.link/41otry" target="_blank" class=""><i class="bi bi-whatsapp" style="font-size: 30px; margin: 0px 4px 0px 0px;"></i></a>
+    </div> -->
+
+    <!-- This section is for contact us directly on Top  -->
+    <!-- desktop view   -->
+    <!-- <div class="top d-none d-md-block">
+        <a href="#" class=""><span>🔝</span></a>
+    </div> -->
+
+<!-- Here I am going to start my personal portfoilo navigation which is used to navigate to the different section of my portfolio. -->
+
+<!-- NavBar global start  -->
+<nav id="nav" class="navbar navbar-expand-lg sticky-top  shadow-sm">
+    <div class="container-fluid">
+        <div id="logo" class="nav_logo ">
+            <a href="./index.html" class="d-flex align-items-center">
+                <!-- <img src="assets/logos/react.png" alt="My Portfolio | Abid A" width="50" class="LogoImage"> -->
+                <span class="logo_name">Ameet V</span>
+            </a>
         </div>
-      </nav>
-      <!-- Nav ends here -->
-     
-      <!-- Hero section starts -->
-      <section class="hero pt-5" id="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center my-5">
-              <img src="Images/ameet-icon.png" class="hero-img" width="380" height="380">
-              <h3 class="fw-bolder text-white name-fs">Ameet Vishwakarma</h3>
-              <p class="star"><i class="fa-solid fa-star text-white fs-1"></i></p>
-              <h5 class="fw-bolder text-white fs-2">Web Developer</h5>
-              
-            </div>
-          </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-links d-block d-lg-flex flex-grow-1 justify-content-end align-items-center mx-0">
+            <a class="nav-link active " aria-current="page" href="#"><span class="nav-no">01.</span> About</a>
+            <a class="nav-link " aria-current="page" href="#about-up"><span class="nav-no">02.</span> Experience</a>
+            <a class="nav-link " aria-current="page" href="#project-up"><span class="nav-no">03.</span> Work</a>
+            <a class="nav-link " aria-current="page" href="#contact-up"><span class="nav-no">04.</span> Contact</a>
+            <a class="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
-      </section>
-      <!-- Hero section ends -->
+      </div>
+    </div>  
+  </nav>
+  <!-- NavBar global end  -->
 
-       <!-- Portfolio section starts -->
 
+  <!-- left - side -->
+  <div class="direct-links ">
+    <div class="left-links ">
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+</div>
+  </div>
 
-       <section class="portfolio pt-5 my-5">
-        <div class="heading-global text-center">
-        <p class="port-head fw-bolder text-center">
-          PORTFOLIO
+  <!-- left - side -->
+  <div class="right-email">
+    <div class="right-mail">
+        <p class="mail-text"><a class="right-a" href="mailto:ameet131999@gmail.com">
+            ameetVish.webdev@gmail.com</a>
         </p>
-        <p class="star2"><i class="fa-solid fa-star text-black fs-1"></i></p>
+    </div>
+  </div>
+
+  <!-- Ameet hero section start-->
+  <section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11 col-12 text-left text-white hero-text">
+               <div class="hero-1txt my-3"> Hi, my name is</div>
+               <div class="name">Ameet V.</div>
+               <div class="head-para">I build things for the web.</div>
+               <div class="head-para2">I’m a software engineer specializing in building (and occasionally<br> designing) exceptional digital experiences. Currently, I’m focused on<br> building accessible, human-centered products at <a class="link text-ani" href="#">Upstatement</a>.</div>
+
+               <div class="button-div pt-5">
+                <button class="button-new check" href="/resume.pdf" target="_blank">Checkout Me and my work!</button>
+               </div>
+            </div>
         </div>
+    </div>
+  </section>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5 quote-bg my-5 p-25">
-              <p class="orange-txt fw-bolder lh-84 text-white text-right">MAKE<br>
-              <span class="span-txt">SM</span>ART<br>
-            <span class="span-txt">CHOICES</span><br>
-          <span class="span-txt">IN</span> YOUR<br>
-        LIFE</p>
-          
+  <!-- Ameet hero section ends-->
+
+  <!-- Ameet about section start-->
+  <section class="about my-5 pt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 my-4">
+                <div class="about-heading">
+                    01. <span class="head-span">About Me</span>
+                </div>
             </div>
-          </div>
         </div>
-       </section>
-       <!-- Portfolio section ends -->
-
-       <!-- About section starts -->
-       <section class="about pt-5 my-5" id="about">
-        <div class="heading-global text-center">
-          <p class="port-head fw-bolder text-center text-white">
-            ABOUT
-          </p>
-          <p class="star3"><i class="fa-solid fa-star text-white fs-1"></i></p>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-2 mob-div-none"></div>
-              <div class="col-md-4 fs-4 text-white p-40">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-              </div>
-              <div class="col-md-4 fs-4 text-white p-40">
-                You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
-              </div>
-              <div class="col-md-2 mob-div-none"></div>
-            </div>
-            <div class="col-md-12 text-center pb-5">
-              <button type="button" class="btn btn-primary new-btn"><i class="fa-light fa-download"></i> Download Resume</button>
-            </div>
-          </div>
-       </section>
-       <!-- About section ends -->
-
-
-       <!-- Contact section starts -->
-       <section class="contact my-5 pt-5" id="contact">
-        <div class="heading-global text-center">
-          <p class="port-head fw-bolder text-center text-black">
-            Contact
-          </p>
-          <p class="star2"><i class="fa-solid fa-star text-black fs-1"></i></p>
-          </div>
-          <div class="container pt-5">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group pb-2">
-                    <input type="text" name="user" class="form-control" id="user" placeholder="NAME" autocomplete="off">
-                    <span id="user-name" class="text-danger font-weight-bold"></span>
-                </div>
-              </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                    <input type="text" name="user" class="form-control" id="user" placeholder="EMAIL" autocomplete="off">
-                    <span id="user-name" class="text-danger font-weight-bold"></span>
-                </div>
-              </div>
-              <div class="col-md-12 pt-3">
-                <div class="form-group">
-                  <textarea class="form-control" id="comments" rows="8" placeholder="Message"></textarea>
-                  <span id="message" class="text-danger font-weight-bold"></span>
-                  </div>
-              </div>
-                </div>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-5 pt-3">
-                <p class="fw-bolder fs-6 pb-3">EMAIL<br><span class="fw-lighter fs-5">ameet1301999@gmail.com</span></p> 
-                <p class="fw-bolder fs-6 pb-3">PHONE<br><span class="fw-lighter fs-5">+91 7738493991</span></p>
-                <p></p>
-                <p class="fw-bolder fs-6 pb-3">ADDRESS<br><span class="fw-lighter fs-5">90 Feet Road, Mumbai<br>
-                Sakinaka kurla(W)</span></p>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6 text-white about-para pt-2">
+                <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
                 <p>
+                    Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                 </p>
-              </div>
+                <p>I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.</p>
+                <p>Here are a few technologies I’ve been working with recently:</p>
             </div>
-          </div>
-       </section>
-       <!-- Contact section ends -->
-
-       <!-- Footer section starts -->
-       <footer>
-        <div class="container pt-5">
-          <div class="row">
-            <div class="col-md-4 text-center text-white pt-5">
-              <h4 class="fw-bolder pb-4 fs-3">LOCATION</h4>
-              <p class="fs-5">215 John Daniel Drive<br>
-                Clark, MO 65243</p>
+            <div class="col-md-5">
+                <!-- <img src="assets/icons/global-location.png"> -->
             </div>
-            <div class="col-md-4 text-center text-white pt-5">
-              <h4 class="fw-bolder pb-4 fs-3">AROUND THE WEB</h4>
-              <div class="icons ">
-                <i class="fa-brands fa-facebook-f icon1 fs-3"></i>
-                <i class="fa-brands fa-twitter icon2 fs-3"></i>
-                <i class="fa-brands fa-linkedin-in icon3 fs-3"></i>
-                <i class="fa-brands fa-youtube icon4 fs-3"></i>
-              </div>
-            </div>
-            <div class="col-md-4 text-center pb-5 text-white pt-5">
-              <h4 class="fw-bolder pb-4 fs-3">ABOUT FREELANCER</h4>
-              <p class="fs-5">Freelance is a free to use, MIT licensed<br> Bootstrap theme created by <span>Start <br>Bootstrap</span> .</p>
-            </div>
-            </div>
-          </div>
+            <!-- <div class="col-md-1"></div> -->
         </div>
-       </footer>
-       <!-- Footer section ends -->
+    </div>
+  </section>
+   <!-- Ameet about section ends-->
+
+  
+
+  <!-- First section which contain the name and designation with image  -->
+<!-- <section class="main-content-box mb-5" >
+    <div class="main-div d-flex justify-content-evenly py-3 py-md-5 flex-wrap align-items-center align-content-center">
+
+        <div class="social_links shadow-lg">
+            <a href="" class="slink">
+                <div><i class="bi bi-linkedin"></i></div>
+            </a>
+            <a href="" class="slink">
+                <div><i class="bi bi-github"></i></div>
+            </a>
+            <a href="" class="slink">
+                <div><i class="bi bi-envelope-fill"></i></div>
+            </a>
+            <a href="" class="slink">
+                <div><i class="bi bi-whatsapp"></i></div>
+            </a>
+        </div>
+
+        <div class="fs-heading my-3">
+            <h1 class="fw-bolder"> Hi👋🏼,<br/> I'm Abid Ansari <br><a href="" class="typewrite" data-period="2000" data-type='[ "FS Web Developer", "Technical Analyst","Assistant Professor"]'>
+                <span class="wrap"></span>
+              </a>
+            </h1>
+            <div class="sub-heading my-3">
+                <h5 class="">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</h5>
+            </div>
+            <div class="start-btn mt-4">
+                <a href=""><button class="start-learning rounded-5 fw-bold fs-5 text-white">
+                    Download Resume <i class="bi bi-cloud-download"></i>
+                </button>
+                </a>
+            </div>
+        </div>
+        <div class="placed-students my-3">
+            <div class=" overflow-hidden">
+                <div class="student1 text-center my-3">
+                    <img src="assets/profile/profile3.png" alt="" class="" width="60%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- This section conatin about me  -->
+
+<section class="main_about_me mb-5" id="about-up">
+    <div class="about-me text-center" data-aos="fade-up" data-aos-duration="1000" >
+        <h1 class="fw-bolder">About Me</h1>
+    </div>
+    <div class="second-div d-flex justify-content-evenly flex-wrap align-items-center my-5 my-md-5 py-5 " >
+        <div class="about-heading text-white" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="fw-bold mb-4">Get to know me!</h2>
+            <!-- <h5 class="text-black-50">A collaborative community for Future Developers <span class="text-black">🚀</span></h5> -->
+            <h5>I am <span class="fw-bold">Abid Ansari</span> an analytical and detail oriented aspiring full stack web developer with a passion for coding and new technologies. Check out some of my work in the <span class="fw-bold">Projects</span> section.</h5>
+            <h5>I have strong skillset in technologies such as React, JavaScript, Next.js, Redux, Node.js, Express.js, and MongoDB.</h5>
+            <h5>I'm open to <span class="fw-bold">Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then <span class="fw-bold">contact</span> me.</h5>
+        </div>
+        <div class="about-count mt-md-0 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+           <div class="count d-flex justify-content-center align-content-center align-items-center">
+                <h1>C</h1>
+                <h1>O</h1>
+                <h1>N</h1>
+                <h1>T</h1>
+                <h1>A</h1>
+                <h1>C</h1>
+                <h1>T</h1>
+            </div>
+            <div class="join-logo text-center mt-4">
+                <a href="" class="me-2">
+                <img src="assets/logos/github.png" alt="" width="50">
+                </a>
+                <a href="">
+                    <img src="assets/logos/linkedin-black.png" alt="" width="53">
+                </a>
+            </div> 
+            <h5 class="text-center mt-2 fw-bold join">Join with Me</h5>
+        </div>
+    </div>
+</section>
+
+
+<!-- This section conatin Experiences  -->
+
+<section class="main_exp mb-5 " >
+    <div class="about-me text-center" data-aos="fade-up" data-aos-duration="1000" >
+        <h1 class="fw-bolder">Experiences</h1>
+    </div>
+    <div class="exp_main_div bg-white">
+        <div class="third-div d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-5 my-md-5 pt-0 pb-0  py-md-5 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="exp-logo mt-md-0 mt-5 mb-md-0 mb-2" >
+                    <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+                     <img src="https://thumbs2.imgbox.com/33/4c/OXuvFHxe_t.jpg" alt="accenturelogo" width="70%" class="shadow-sm rounded-3 mb-3 mb-md-0">
+                 </div>
+             </div>
+            <div class="exp-heading text-black text-md-start text-center" >
+                <h2 class="fw-bold mb-2">Accenture | Mumbai</h2>
+                <h6 class="mt-0 fw-bold join "><span class="fs-5">Web Developer</span> (Dec, 2022 to Present)</h6>
+                <!-- <h5 class="text-black-50">A collaborative community for Future Developers <span class="text-black">🚀</span></h5> -->
+                <h5><span class="fw-bold">Accenture</span> is a global professional services company with leading capabilities in digital, cloud and security.</h5>
+                <h5>I have worked on Various platform/technologies such as SFMC(Salesforce marketing cloud), VEEVA CRM, CLM, Wordpress and AWS etc.</h5>
+                <h5>Also wokred on different tools for checking the code Quality and Functionality to better user experience.</h5>
+            </div>
+        </div>
+    
+        <!-- exp2  -->
+    
+        <div class="third-div d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="exp-heading text-black text-md-start text-center order-2 order-md-0" >
+                <h2 class="fw-bold mb-2">Appic | Mumbai</h2>
+                <h6 class="mt-0 fw-bold join "><span class="fs-5">React-Js Dev</span> (May, 2022 to Sep, 2022)</h6>
+                <h5><span class="fw-bold">Appic</span> is a start-up has aimed to bring about a confluence of technology and art to modern problems. </h5>
+                <h5>I have Woked on Frontend Development of HDFC-Client Admin Dashboard <span class="fw-bold">(Generic Components)</span> with technologies such as React, JavaScript, Redux etc.</h5>
+                <h5>Also worked on Frontend Development of Gulf Pharmacy project with React technology.</h5>
+            </div>
+            <div class="exp-logo mt-md-0 mt-5 mb-md-0 mb-2 order-1 order-md-0" >
+                <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+                 <img src="https://thumbs2.imgbox.com/d4/e7/h3IlySEt_t.jpg" alt="appiclogo" width="70%" class="shadow-sm  rounded-3 mb-3 mb-md-0">
+                </div>
+            </div>
+        </div>
+    
+        <!-- exp-3  -->
+    
+        <div class="third-div d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5 " data-aos="zoom-in" data-aos-duration="1000">
+            <div class="exp-logo mt-md-0 mt-5 mb-md-0 mb-2" >
+                    <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+                     <img src="https://thumbs2.imgbox.com/45/2c/94oO76Ke_t.jpg" alt="theemlogo" width="70%" class="shadow-sm rounded-3 mb-3 mb-md-0">
+                 </div>
+             </div>
+            <div class="exp-heading text-black text-md-start text-center" >
+                <h2 class="fw-bold mb-2">Theem COE | Mumbai </h2>
+                <h6 class="mt-0 fw-bold join "><span class="fs-5">Assistant Prof</span> (Mar, 2017 to Dec,2021)</h6>
+                <h5><span class="fw-bold">Theem COE</span> is one of the pioneer engineering colleges in western Mumbai.</h5>
+                <h5>Delivered a Range of Technical Programs for developments of staff and students.</h5>
+                <h5>Institute NAAC Member | MSBTE IEDSSA Co-ordinator.</h5>
+                <h5>I have done many certification program based on E-Learning content and Developement of different programming Languages</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- This section is about my projects find some glimpse -->
+
+<!-- project 1  -->
+<section class="main_projects mb-5" id="project-up">
+    <div class="my_projects text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fw-bolder">My Projects</h1>
+    </div>
+    <div class=" d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="project-logo mt-md-0 mt-5 mb-md-0 mb-2" >
+                <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center ">
+                 <img src="video/adminDashboard.gif" alt="admindashboard" width="100%" class="rounded-3 shadow-sm mb-3 mb-md-0">
+             </div>
+         </div>
+        <div class="project-heading text-black text-md-start text-center" >
+            <h2 class="fw-bold mb-2">Lets Upgrade | 2023</h2>
+            <h6 class="mt-0 fw-bold join "><span class="fs-5">Leraning Platform</span> (Dec, 2022 to Present)</h6>
+            <!-- <h5 class="text-black-50">A collaborative community for Future Developers <span class="text-black">🚀</span></h5> -->
+            <h5><span class="fw-bold">Accenture</span> is a global professional services company with leading capabilities in digital, cloud and security.</h5>
+            <h5>I have worked on Various platform/technologies such as SFMC(Salesforce marketing cloud), VEEVA CRM, CLM, Wordpress and AWS etc.</h5>
+            <h5>Also wokred on different tools for checking the code Quality and Functionality to better user experience.</h5>
+
+            <div class="deploy-btns d-flex justify-content-center justify-content-md-start mt-4">
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="github border-0 px-4 py-2 rounded-2 me-2">GitHub <i class="bi bi-github text-white ms-2"></i></button></a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="deploy border-0 px-4 py-2 rounded-2 me-2">Deploy <i class="bi bi-arrow-up-right-circle ms-2 text-white"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project 2  -->
+
+    <div class=" d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="project-heading text-black text-md-start text-center order-2 order-md-0">
+            <h2 class="fw-bold mb-2">Appic | Mumbai</h2>
+            <h6 class="mt-0 fw-bold join "><span class="fs-5">React-Js Dev</span> (May, 2022 to Sep, 2022)</h6>
+            <h5><span class="fw-bold">Appic</span> is a start-up has aimed to bring about a confluence of technology and art to modern problems. </h5>
+            <h5>I have Woked on Frontend Development of HDFC-Client Admin Dashboard <span class="fw-bold">(Generic Components)</span> with technologies such as React, JavaScript, Redux etc.</h5>
+            <h5>Also worked on Frontend Development of Gulf Pharmacy project with React technology.</h5>
+            <div class="deploy-btns d-flex justify-content-center justify-content-md-start mt-4">
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="github border-0 px-4 py-2 rounded-2 me-2">GitHub <i class="bi bi-github text-white ms-2"></i></button></a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="deploy border-0 px-4 py-2 rounded-2 me-2">Deploy <i class="bi bi-arrow-up-right-circle ms-2 text-white"></i></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="project-logo mt-md-0 mt-5 mb-md-0 mb-2 order-1 order-md-0" >
+            <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+             <img src="video/crud.gif" alt="crudProject" width="100%" class="rounded-3 shadow-sm mb-3 mb-md-0">
+            </div>
+        </div>
+    </div>
+
+    <!-- project-3  -->
+
+    <div class=" d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="project-logo mt-md-0 mt-5 mb-md-0 mb-2" >
+                <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center" >
+                 <img src="video/letsUpgrade.gif" alt="letsupgradeclone" width="100%" class="rounded-3 shadow-sm mb-3 mb-md-0">
+             </div>
+         </div>
+        <div class="project-heading text-black text-md-start text-center" >
+            <h2 class="fw-bold mb-2">Theem COE | Mumbai </h2>
+            <h6 class="mt-0 fw-bold join "><span class="fs-5">Assistant Prof</span> (Mar, 2017 to Dec,2021)</h6>
+            <h5><span class="fw-bold">Theem COE</span> is one of the pioneer engineering colleges in western Mumbai.</h5>
+            <h5>Delivered a Range of Technical Programs for developments of staff and students.</h5>
+            <h5>Institute NAAC Member | MSBTE IEDSSA Co-ordinator.</h5>
+            <h5>I have done many certification program based on E-Learning content and Developement of different programming Languages</h5>
+            <div class="deploy-btns d-flex justify-content-center justify-content-md-start mt-4">
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="github border-0 px-4 py-2 rounded-2 me-2">GitHub <i class="bi bi-github text-white ms-2"></i></button></a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="deploy border-0 px-4 py-2 rounded-2 me-2">Deploy <i class="bi bi-arrow-up-right-circle ms-2 text-white"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- project 4  -->
+
+    <div class=" d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="project-heading text-black text-md-start text-center order-2 order-md-0" >
+            <h2 class="fw-bold mb-2">Appic | Mumbai</h2>
+            <h6 class="mt-0 fw-bold join "><span class="fs-5">React-Js Dev</span> (May, 2022 to Sep, 2022)</h6>
+            <h5><span class="fw-bold">Appic</span> is a start-up has aimed to bring about a confluence of technology and art to modern problems. </h5>
+            <h5>I have Woked on Frontend Development of HDFC-Client Admin Dashboard <span class="fw-bold">(Generic Components)</span> with technologies such as React, JavaScript, Redux etc.</h5>
+            <h5>Also worked on Frontend Development of Gulf Pharmacy project with React technology.</h5>
+            <div class="deploy-btns d-flex justify-content-center justify-content-md-start mt-4">
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="github border-0 px-4 py-2 rounded-2 me-2">GitHub <i class="bi bi-github text-white ms-2"></i></button></a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="deploy border-0 px-4 py-2 rounded-2 me-2">Deploy <i class="bi bi-arrow-up-right-circle ms-2 text-white"></i></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="project-logo mt-md-0 mt-5 mb-md-0 mb-2 order-1 order-md-0" >
+            <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+             <img src="video/McD.gif" alt="Mc'Dproject" width="100%" class="rounded-3 shadow-sm mb-3 mb-md-0">
+            </div>
+        </div>
+    </div>
+
+    <!-- project-5-->
+
+    <div class=" d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5"  data-aos="zoom-in" data-aos-duration="1000">
+        <div class="project-logo mt-md-0 mt-5 mb-md-0 mb-2" >
+                <div class="comapny-logo d-flex justify-content-center align-content-center align-items-center">
+                 <img src="video/naukri.gif" alt="naukricloneWeb" width="100%" class="rounded-3 shadow-sm mb-3 mb-md-0">
+             </div>
+         </div>
+        <div class="project-heading text-black text-md-start text-center">
+            <h2 class="fw-bold mb-2">Theem COE | Mumbai </h2>
+            <h6 class="mt-0 fw-bold join "><span class="fs-5">Assistant Prof</span> (Mar, 2017 to Dec,2021)</h6>
+            <h5><span class="fw-bold">Theem COE</span> is one of the pioneer engineering colleges in western Mumbai.</h5>
+            <h5>Delivered a Range of Technical Programs for developments of staff and students.</h5>
+            <h5>Institute NAAC Member | MSBTE IEDSSA Co-ordinator.</h5>
+            <h5>I have done many certification program based on E-Learning content and Developement of different programming Languages</h5>
+            <div class="deploy-btns d-flex justify-content-center justify-content-md-start mt-4">
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="github border-0 px-4 py-2 rounded-2 me-2">GitHub <i class="bi bi-github text-white ms-2"></i></button></a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="" download=""><button class="deploy border-0 px-4 py-2 rounded-2 me-2">Deploy <i class="bi bi-arrow-up-right-circle ms-2 text-white"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- this section conatins the frame work and tools which I  worked on and known  -->
+
+<section class="main_projects mb-5" id="skill-up">
+    <div class="my_projects text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fw-bolder mb-md-0 mb-5">Languages & Framework</h1>
+    </div>
+
+
+    <div class="fifth-div d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5">
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/cplusplus.png" alt="cpp" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 fw-semibold mb-0">C++</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3"  data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/html5.png" alt="html" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">HTML</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/css3.png" alt="css" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">CSS</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/javascript.png" alt="javascript" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Javascript</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/react.png" alt="react" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">React Js</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/node-js.png" alt="node-js" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Node Js</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/mongodb.png" alt="mongo-db" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Mongo DB</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/express.png" alt="express-js" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Express Js</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/bootstrap (1).png" alt="bootstrap" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Bootstrap</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/redux.png" alt="redux" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Redux</h3>
+         </div>
+    </div>
+
+</section>
+
+
+<!-- this section conatins the  tools which I  worked on and known  -->
+
+<section class="main_projects mb-5">
+    <div class="my_projects text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fw-bolder mb-md-0 mb-5">Tools & Other</h1>
+    </div>
+
+    <div class="fifth-div d-flex justify-content-evenly flex-wrap align-items-center align-content-center my-3 my-md-5 pt-0 pb-4 py-md-5">
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/github.png" alt="github" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">GitHub</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/gitlab.png" alt="gitlab" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">GitLab</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/figma.png" alt="figma" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Figma</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/postman.png" alt="postman" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Postman</h3>
+         </div>
+         <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/jira.png" alt="jiraLogo" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Jira</h3>
+         </div>
+        
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/aws.png" alt="aws" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">AWS</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/netlify.png" alt="netlify" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Netlify</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/visual-studio.png" alt="vs-code" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">VS Code</h3>
+         </div>
+         <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/wordpress.png" alt="wordpress" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">WordPress</h3>
+         </div>
+        <div class="lang-logo mt-md-0 mt-5 mb-md-4 mb-2 mx-3 text-center bg-white p-2 rounded-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="">
+                 <img src="assets/logos/salesforce.png" alt="Salesforce" width="100%" class=" mb-0 mb-md-3 mb-md-0 ">
+             </div>
+             <h3 class=" lang-name mt-2 mt-md-0 mb-0 fw-semibold ">Salesforce</h3>
+         </div>
+    </div>
+
+</section>
+
+<!-- This section conatin Contact me  -->
+
+<section class="main_about_me" id="contact-up">
+    <div class="about-me text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fw-bolder mb-5">Contact Me</h1>
+    </div>
+    <div class="contact-div d-flex justify-content-evenly flex-wrap align-items-center  py-5 " data-aos="fade-up" data-aos-duration="1000">
+        <div class="contact-illustrate text-center" >
+            
+                <img src="assets/logos/digital-contract.svg" alt="" width="70%">
+        </div>
+        <div class="contact-count mt-md-0 mt-5 " >
+            <h5><img src="assets/icons/mobileemail.png" alt="" width="40" class="me-3">abid.reactdeveloper@gmail.com</h5>
+            <h5><img src="assets/icons/mobilecall.png" alt="" width="40" class="me-3">+91 88568 23440</h5>
+            <h5><img src="assets/icons/mobilelocation.png" alt="" width="40" class="me-3">Thane, Maharashtra</h5>
+            <div class="social-logo mt-4 text-md-start text-center">
+                <a href="" class="me-2">
+                <img src="assets/logos/github.png" alt="" width="50">
+                </a>
+                <a href="">
+                    <img src="assets/logos/linkedin.png" alt="" width="48">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-black py-4" >
+        <h6 class="mt-3 fw-bold join  text-center text-white">© 2023 copyright all right reserved</h6>
+        <h4 class="mt-3 fw-bold join  text-center text-white">Made with 🤍 by Abid Ansari</h4>
+    </div>
+    
+</section>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+};
+
+TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+    }
+
+    setTimeout(function() {
+    that.tick();
+    }, delta);
+};
+
+window.onload = function() {
+    // var loader = document.getElementById("preloader");
+    // loader.style.display = "none";
+
+
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+
+};
+</script>
+<!-- //AOS animation injected  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+
+  });
+</script> 
+</body>
 </html>
