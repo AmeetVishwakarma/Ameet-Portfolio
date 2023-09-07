@@ -539,7 +539,7 @@ body{
     font-family: var(--fira-font);
     color: var(--green);
     padding-left: 92px;
-    font-size: 23px;
+    font-size: 18px;
     /* position: relative; */
 }
 .head-span{
@@ -564,6 +564,113 @@ body{
     font-size: 19px;
     color: var(--light-slate);
     font-family: var(--roboto-font);
+}
+
+.personal-img{
+    /* 
+    box-shadow: 50px 50px 1px 1px solid white ; */
+}
+
+/* .img-me{
+    border-radius: 5px;
+    border: 2px solid red;
+    
+}
+.personal-img::after{
+    content: '';
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+} */
+
+/* worked */
+.worked-heading{
+    font-family: var(--fira-font);
+    color: var(--green);
+    padding-left: 190px;
+    font-size: 18px;
+    /* position: relative; */
+}
+.worked-span{
+    font-size: var(--fz-heading);
+    font-weight: bolder;
+    color: var(--light-slate);
+}
+
+.worked-heading::after{
+    content: '';
+    display: block;
+    position: relative;
+    top: -23px;
+    left: 0px;
+    height: 0.5px;
+    width: 352px;
+    background: var(--lightest-navy);
+    margin-left: 396px;
+
+}
+
+.main-content{
+    
+}
+
+/* tabscss */
+.tabs-container{
+    display: flex;
+}
+
+.tabs-container > .tabs{
+    width: 138px;
+}
+
+.tabs-container > .tabs > .tab{
+    padding: 15px 20px;
+    cursor: pointer;
+    border-left: 0.5px solid var(--lightest-navy);
+    font-size: var(--fz-xs);
+    font-family: var(--fira-font);
+    color: var(--slate);
+    transition: var(--transition);
+}
+
+.tab-active{
+    border-left: 1px solid var(--green) !important;
+    color: var(--green) !important;
+}
+
+/* Content para */
+.tabs-container > .content-container{
+    padding: 12px 25px;
+}
+
+.tabs-container > .content-container > .content{
+    display: none;
+    font-family: var(--roboto-font);
+}
+
+.tabs-container > .content-container > .content > h3{
+    color: var(--lightest-slate);
+    font-weight: 600;
+    font-size: var(--fz-xxl);
+}
+
+.tabs-container > .content-container > .content > p{
+    color: var(--slate);
+    font-size: var(--fz-md);
+}
+
+.tabs-container > .content-container >.content-active{
+    display: block;
+}
+
+.selected{
+    color: var(--green) !important;
+    font-weight: lighter !important;
+    font-size: var(--fz-lg);
 }
 
 @media screen and (max-width: 768px){
