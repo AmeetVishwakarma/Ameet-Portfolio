@@ -677,8 +677,17 @@ body{
     
     /* ameet css */
 
-    .hero{
-        padding: 0px 40px;
+    .mob-heading{
+        font-size: 23px;
+    }
+
+    .pad-left36{
+        padding-left: 36px; 
+    }
+    /* reusable css */
+
+    .hero-mob{
+        padding: 0px 25px;
     }
     .head-para{
         margin: 2px 0px 0px 0px;
@@ -696,7 +705,7 @@ body{
     /* about sec */
 
     .about{
-        padding: 0px 40px;
+        padding: 0px 25px;
     }
 
     .about-heading{
@@ -715,6 +724,22 @@ body{
     .head-span{
         font-size: 23px;
     }
+
+    /* worked */
+    .tabs-container > .content-container {
+        padding: 12px 12px;
+    }
+
+    .worked-heading::after{
+        top: -23px;
+    width: 47px;
+    margin-left: 289px;
+    
+    }
+    .worked-heading{
+        font-size: 17px;
+    }
+    
     /* ameet end  */
 
     .nav-link{
