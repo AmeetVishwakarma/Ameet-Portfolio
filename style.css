@@ -742,6 +742,9 @@ body{
     .worked-heading{
         font-size: 17px;
     }
+    .selected{
+        display: none;
+    }
     
     /* ameet end  */
 
