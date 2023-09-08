@@ -687,7 +687,10 @@ body{
     /* reusable css */
 
     .hero-mob{
-        padding: 0px 25px;
+        padding: 0px 40px;
+    }
+    .hero{
+        padding: 0px 40px;
     }
     .head-para{
         margin: 2px 0px 0px 0px;
@@ -705,7 +708,7 @@ body{
     /* about sec */
 
     .about{
-        padding: 0px 25px;
+        padding: 0px 40px;
     }
 
     .about-heading{
