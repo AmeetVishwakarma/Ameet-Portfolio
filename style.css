@@ -627,6 +627,11 @@ body{
     width: 138px;
 }
 
+.tabs-container > .tabs > .tab:hover{
+    color : var(--green);
+    background: var(--lightest-navy);
+}
+
 .tabs-container > .tabs > .tab{
     padding: 15px 20px;
     cursor: pointer;
@@ -730,7 +735,7 @@ body{
 
     /* worked */
     .tabs-container > .content-container {
-        padding: 12px 12px;
+        padding: 12px 2px;
     }
 
     .worked-heading::after{
@@ -744,6 +749,17 @@ body{
     }
     .selected{
         display: none;
+    }
+
+    .tabs-container > .tabs > .tab:hover{
+        color : var(--green);
+        background: none;
+    }
+    .tabs-container > .content-container > .content > h3{
+        font-size: 18px;
+    }
+    .tabs-container > .content-container > .content > p{
+        font-size: 14px;
     }
     
     /* ameet end  */
