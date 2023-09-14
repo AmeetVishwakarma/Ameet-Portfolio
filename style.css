@@ -678,6 +678,55 @@ body{
     font-size: var(--fz-lg);
 }
 
+/* Get in touch */
+.getintouch-greenhead{
+    color: var(--green);
+    font-family: var(--fira-font);
+}
+
+.getintouch-greenhead > span{
+    color: var(--green);
+    font-family: var(--fira-font);
+}
+
+.get-p{
+    font-family: var(--roboto-font);
+    color: var(--light-slate);
+    font-size: clamp(40px, 5vw, 60px);
+    font-weight: 700;
+}
+
+.get-content{
+    color: var(--slate);
+    font-size: var(--fz-md);
+    font-family: var(--roboto-font);
+
+}
+
+/* footer */
+.owner{
+    color: var(--slate);
+    font-family: var(--fira-font);
+    font-size: var(--fz-xs);
+    transition: var(--transition);
+}
+
+.owner:hover{
+    color: var(--green);
+    cursor: pointer;
+}
+
+.rep{
+    color: var(--slate);
+    font-family: var(--fira-font);
+    font-size: var(--fz-xs);
+    transition: var(--transition);
+}
+.rep:hover{
+    color: var(--green);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px){
     
     /* ameet css */
